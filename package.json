@@ -1,0 +1,37 @@
+{
+  "name": "parcel-transformer-sucrase",
+  "version": "2.0.0",
+  "description": "sucrase plugin for parcel V2",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --timeout 50000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenttleton/parcel-transformer-sucrase.git"
+  },
+  "keywords": [
+    "sucrase",
+    "parcel",
+    "parcel-bundler",
+    "pundler",
+    "babel"
+  ],
+  "author": "Kent Utterback",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kenttleton/parcel-transformer-sucrase/issues"
+  },
+  "homepage": "https://github.com/Kenttleton/parcel-transformer-sucrase#readme",
+  "engines": {
+    "parcel": "2.x"
+  },
+  "peerDependencies": {
+    "sucrase": "^3"
+  },
+  "dependencies": {
+    "@parcel/plugin": "^2.0.0-alpha.3",
+    "parcel": "^2.0.0-beta.2",
+    "sucrase": "^3"
+  }
+}
