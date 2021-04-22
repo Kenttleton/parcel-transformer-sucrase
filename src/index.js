@@ -4,7 +4,7 @@ const { transform } = require("sucrase");
 module.exports = new Transformer({
     async parse({asset}) {
         console.log(asset);
-        //TODO Parse file type and add to transforms
+        //TODO Parse file type and add to transforms?
         return {transforms: ["jsx", "typescript", "flow",  "imports", "react-hot-loader", "jest"]}; // All available transforms from Sucrase
     },
 
